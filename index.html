@@ -26,6 +26,8 @@
 		<link href="assets/css/animate.css" rel="stylesheet">
 		<!-- Template core CSS-->
 		<link href="assets/css/template.css" rel="stylesheet">
+		<!-- Custom CSS -->
+		<link href="assets/css/custom.css" rel="stylesheet">
 	</head>
 	<body>
 
@@ -100,14 +102,100 @@
 			</section>
 			<!-- Page Header end-->
 
+			<!-- Portfolio-->
+			<section class="module p-b-0" id="portfolio">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="m-title c-align">
+									<h2>My Portfolio</h2>
+									<h6>An eye for detail makes our works excellent</h6>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<ul class="filters h6" id="filters">
+									<li><a class="current" href="#" data-filter="*">All</a></li>
+									<li><a href="#" data-filter=".branding">Music</a></li>
+									<li><a href="#" data-filter=".design">Design</a></li>
+									<li><a href="#" data-filter=".photo">Photo</a></li>
+									<li><a href="#" data-filter=".web">Web</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="container-fluid">
+						<div class="row row-portfolio" data-columns="4">
+							<div class="grid-sizer"></div>
+							<div class="portfolio-item js-tilt branding photo large">
+								<div class="portfolio-wrapper">
+									<div class="portfolio-img-wrap" data-background="assets/images/portfolio/g-5.jpg"></div>
+									<div class="portfolio-overlay"></div>
+									<div class="portfolio-caption">
+										<h5 class="portfolio-title">Raleway</h5>
+										<h6 class="portfolio-subtitle">Branding</h6>
+									</div>
+								</div>
+								<div class="portfolio-link photo" href="assets/images/portfolio/g-5.jpg"></div>
+							</div>
+							<div class="portfolio-item js-tilt web design ">
+								<div class="portfolio-wrapper">
+									<div class="portfolio-img-wrap" data-background="assets/images/HHS.png"></div>
+									<div class="portfolio-overlay"></div>
+									<div class="portfolio-caption">
+										<h5 class="portfolio-title">Texas Health and Human Services</h5>
+										<h6 class="portfolio-subtitle">Front-End Web Development</h6>
+									</div>
+								</div>
+								<div class="portfolio-link photo" href="assets/images/HHS.png"></div>
+							</div>
+							<div class="portfolio-item js-tilt photo web ">
+								<div class="portfolio-wrapper">
+									<div class="portfolio-img-wrap" data-background="assets/images/BrookingsLogo.jpg"></div>
+									<div class="portfolio-overlay"></div>
+									<div class="portfolio-caption">
+										<h5 class="portfolio-title">Quality. Independence. Impact.</h5>
+										<h6 class="portfolio-subtitle">Web Design<br>Jonathan Rauch</h6>
+									</div>
+								</div>
+								<div class="portfolio-link photo" href="assets/images/BrookingsLogo.jpg"></div>
+							</div>
+							<div class="portfolio-item js-tilt design branding ">
+								<div class="portfolio-wrapper">
+									<div class="portfolio-img-wrap" data-background="assets/images/JS.png"></div>
+									<div class="portfolio-overlay"></div>
+									<div class="portfolio-caption">
+										<h5 class="portfolio-title">Find What's Next</h5>
+										<h6 class="portfolio-subtitle">Web Application</h6>
+									</div>
+								</div>
+								<div class="portfolio-link photo" href="assets/images/JS.png"></div>
+							</div>
+							<div class="portfolio-item js-tilt design photo ">
+								<div class="portfolio-wrapper">
+									<div class="portfolio-img-wrap" data-background="assets/images/api-application-programming-interface-laptop-vector-icon-style-illustration-logo-pencil-cloud-data-84181438.jpg"></div>
+									<div class="portfolio-overlay"></div>
+									<div class="portfolio-caption">
+										<h5 class="portfolio-title">Bicycles</h5>
+										<h6 class="portfolio-subtitle">Design</h6>
+									</div>
+								</div>
+								<div class="portfolio-link photo" href="assets/images/api-application-programming-interface-laptop-vector-icon-style-illustration-logo-pencil-cloud-data-84181438.jpg"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Portfolio end-->
+			
 			<!-- Profile-->
-			<section class="module" id="profile">
+			<section class="module" id="profile" data-background="assets/images/skylineDark.jpg">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="m-title c-align">
-								<h2>Matthew Bogard</h2>
-								<h6>Full Stack Web Developer</h6>
+								<h2 class="customWhiteText">Matthew Bogard</h2>
+								<h6 class="customWhiteText">Full Stack Web Developer</h6>
 							</div>
 						</div>
 					</div>
@@ -116,9 +204,9 @@
 							<p><img src="assets/images/LinkedInProfilePicture.png" alt=""></p>
 						</div>
 						<div class="col-md-4">
-							<h5>Profesional Profile</h5>
-							<p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover local points of interest. Map where your photos.</p>
-							<p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover local points of interest. Map where your photos.</p>
+							<h5 class="customWhiteText">Profesional Profile</h5>
+							<p class="customWhiteText">Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover local points of interest. Map where your photos.</p>
+							<p class="customWhiteText">Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover local points of interest. Map where your photos.</p>
 						</div>
 						<div class="col-md-4">
 							<h5>My Skills</h5>
@@ -196,92 +284,6 @@
 				</div>
 			</section>
 			<!-- Counters end-->
-
-			<!-- Portfolio-->
-			<section class="module p-b-0" id="portfolio">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="m-title c-align">
-								<h2>My Portfolio</h2>
-								<h6>An eye for detail makes our works excellent</h6>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<ul class="filters h6" id="filters">
-								<li><a class="current" href="#" data-filter="*">All</a></li>
-								<li><a href="#" data-filter=".branding">Branding</a></li>
-								<li><a href="#" data-filter=".design">Design</a></li>
-								<li><a href="#" data-filter=".photo">Photo</a></li>
-								<li><a href="#" data-filter=".web">Web</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="container-fluid">
-					<div class="row row-portfolio" data-columns="4">
-						<div class="grid-sizer"></div>
-						<div class="portfolio-item js-tilt branding photo large">
-							<div class="portfolio-wrapper">
-								<div class="portfolio-img-wrap" data-background="assets/images/portfolio/g-5.jpg"></div>
-								<div class="portfolio-overlay"></div>
-								<div class="portfolio-caption">
-									<h5 class="portfolio-title">Raleway</h5>
-									<h6 class="portfolio-subtitle">Branding</h6>
-								</div>
-							</div>
-							<div class="portfolio-link photo" href="assets/images/portfolio/g-5.jpg"></div>
-						</div>
-						<div class="portfolio-item js-tilt web design ">
-							<div class="portfolio-wrapper">
-								<div class="portfolio-img-wrap" data-background="assets/images/HHS.png"></div>
-								<div class="portfolio-overlay"></div>
-								<div class="portfolio-caption">
-									<h5 class="portfolio-title">Texas Health and Human Services</h5>
-									<h6 class="portfolio-subtitle">Front-End Web Development</h6>
-								</div>
-							</div>
-							<div class="portfolio-link photo" href="assets/images/portfolio/g-1.jpg"></div>
-						</div>
-						<div class="portfolio-item js-tilt photo web ">
-							<div class="portfolio-wrapper">
-								<div class="portfolio-img-wrap" data-background="assets/images/portfolio/g-4.jpg"></div>
-								<div class="portfolio-overlay"></div>
-								<div class="portfolio-caption">
-									<h5 class="portfolio-title">Popcorn</h5>
-									<h6 class="portfolio-subtitle">Design</h6>
-								</div>
-							</div>
-							<div class="portfolio-link photo" href="assets/images/portfolio/g-4.jpg"></div>
-						</div>
-						<div class="portfolio-item js-tilt design branding ">
-							<div class="portfolio-wrapper">
-								<div class="portfolio-img-wrap" data-background="assets/images/portfolio/g-3.jpg"></div>
-								<div class="portfolio-overlay"></div>
-								<div class="portfolio-caption">
-									<h5 class="portfolio-title">Color</h5>
-									<h6 class="portfolio-subtitle">Design</h6>
-								</div>
-							</div>
-							<div class="portfolio-link photo" href="assets/images/portfolio/g-3.jpg"></div>
-						</div>
-						<div class="portfolio-item js-tilt design photo ">
-							<div class="portfolio-wrapper">
-								<div class="portfolio-img-wrap" data-background="assets/images/portfolio/g-2.jpg"></div>
-								<div class="portfolio-overlay"></div>
-								<div class="portfolio-caption">
-									<h5 class="portfolio-title">Bicycles</h5>
-									<h6 class="portfolio-subtitle">Design</h6>
-								</div>
-							</div>
-							<div class="portfolio-link photo" href="assets/images/portfolio/g-2.jpg"></div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- Portfolio end-->
 
 			<!-- Services-->
 			<section class="module" id="services">
@@ -386,10 +388,10 @@
 								<li>
 									<div class="timeline-badge"></div>
 									<div class="timeline-panel">
-										<div class="timeline-preview"><img src="assets/images/features/2.jpg" alt=""></div>
+										<div class="timeline-preview"><img src="assets/images/1200px-Brookings_Institute_DC_2007.jpg" alt=""></div>
 										<div class="timeline-body">
 											<h5 class="timeline-title">Visual designer</h5>
-											<h6 class="timeline-description">Stanford University | 2004 - 2008</h6>
+											<h6 class="timeline-description">The Brookings Institution | Spring 2015</h6>
 											<p>Map where your photos were taken and discover local points of interest. Map where your photos. Map where your photos were taken and discover local points of interest.</p>
 										</div>
 									</div>
